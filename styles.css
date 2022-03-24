@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap);
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+section.top-page {
+    background: url('../images/cyber.png');
+    background-size: cover;
+    height: 80vh;
+    padding: 25px ;
+}
+
+body{
+    margin:  auto;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    width: 400px;
+    
+}
+nav.nav li a {
+    color: #fff;
+    width: 100px;
+    text-decoration: none;
+
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+header.header img {
+    width: 150px;
+}
+.big-title{
+    color: white;
+    font-size: 80px;
+   font-weight: 100;
+    font-family: Abril 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif , cursive;
+    text-align: right;
+    text-shadow: 5px 5px #111222;
+}
+.landing-page {
+    padding: 20px 50px;
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+     position: absolute;
+     bottom: 160px ;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background: #111222;
+}
+
+.scroll-down{
+    justify-content: flex-start;
+    display: flex;
+}
+
+
+section{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 100px;
+  color: #fff;
+}
+
+.metiers a{
+    text-decoration: none;
+    justify-content: flex-start;
+    color: rgb(248, 248, 248);
+    width: 100px;
+    height: 100px;
+    font-size: xx-large;
+}
+.metiers{
+    justify-content: left;
+    align-items: flex-start;
+    width: auto 100px 100px;
+    height: auto 100px;
+}
+
+
+.container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-title{
+  font-size: 3em;
+  margin-bottom: 50px;
+}
+
+.content{
+  position: relative;
+  width: 1150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.content .image{
+  position: relative;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
+
+info-title {
+    margin: 10px;
+}
+
+
+.txt {
+    font-size: 25px;
+    padding: 50px 200px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.btn {
+    height: 100px;
+    width: 100px;
+    background: blanchedalmond;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+.icone {
+    width: 50px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-end;
+}

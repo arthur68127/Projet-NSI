@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap);
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+section.top-page {
+    background: url('../images/cyber2.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding: 25px ;
+    
+}
+
+body{
+    margin: 0 auto;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    width: 400px;
+    background-color: #111222;
+    border-radius: 20%;
+    
+}
+nav.nav li a {
+    color: #fff;
+    border-radius: 10px;
+    justify-content: flex-start;
+    display: flex;
+    text-decoration: none;
+
+}
+
+header.header {
+    display: flex;
+    align-items: flex-start;
+}
+header.header img {
+    width: 150px;
+}
+.big-title{
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+   font-weight: 100;
+    font-family: Abril 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif , cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: right;
+    text-shadow: 5px 5px #111222 ;
+    
+}
+.landing-page {
+    padding: 20px 50px;
+}
+
+a{
+    text-decoration: underline;
+    color: #fff ;
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+     position: absolute;
+     bottom: 160px ;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background: #111222;
+}
+
+section{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 100px;
+  color: #fff;
+}
+
+.container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-title{
+  font-size: 3em;
+  margin-bottom: 50px;
+}
+
+.content{
+  position: relative;
+  width: 1150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.content .image{
+  position: relative;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
+
+info-title {
+    margin: 20px;
+}
+
+
+.txt {
+    font-size: 25px;
+    padding: 50px 200px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.btn {
+    height: 100px;
+    width: 100px;
+    background: blanchedalmond;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+.icone {
+    width: 50px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-end;
+}
